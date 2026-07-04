@@ -1,3 +1,5 @@
+.memsearch/
+.omc/
 node_modules
 .next
 .env
