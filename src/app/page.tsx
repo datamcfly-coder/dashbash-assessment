@@ -92,7 +92,7 @@ export default function Page() {
                 {pct(dash.rate_7)}
               </span>
               <div className="mt-2">
-                <TrendBadge delta={dash.rate_delta} />
+                <TrendBadge delta={dash.rate_7 - dash.rate_prior_7} />
               </div>
             </div>
             <p className="mt-3 text-sm text-muted">
